@@ -1,0 +1,14 @@
+.autoComplete {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.autoComplete .searchBox,
+.autoComplete .list {
+  width: 400px;
+  align-self: center;
+}

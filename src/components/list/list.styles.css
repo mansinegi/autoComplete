@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 3px;
+  border-top: none;
+  box-shadow: 5px 5px 5px #e0e0e0;
+  width: 250px;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.listItem {
+  padding: 0 10px;
+  line-height: 8px;
+  font-size: 12px;
+}
+
+.listItem:hover,
+.listItem.hovered {
+  background: #e0e0e0;
+}
